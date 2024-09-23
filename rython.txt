@@ -1,0 +1,323 @@
+--------------------------------------
+Rython.py
+--------------------------------------
+
+import Red
+import Math
+import Rand
+import math
+import File
+from Math import PI,TAU,AV,sqrt,CA,CF,PY
+from Rand import RD,RND,RDV,RDB
+
+
+
+s = lambda x: str(x)
+l = lambda x: len(x)
+p = lambda x: print(x)
+r = lambda x: round(x)
+n = lambda x: int(x)
+b = lambda x: bool(x)
+
+
+File = File.File
+Circle = Math.Circle
+Rand = Rand.Rand
+Encrypt = Red.Encrypt
+Decrypt = Red.Decrypt
+Red = Red.Red
+--------------------------------------
+Red.py
+--------------------------------------
+
+# def Code(code):
+#     if code == "0000":
+#         return "none"
+#     elif code == "1000":
+#         return "Red Script"
+
+import Encrypt
+import Decrypt
+
+
+
+Encrypt = Encrypt.Encrypt
+# Code = Code.Code
+Decrypt = Decrypt.Decrypt
+Red = {
+  "Code": {
+    "Names": [
+      "Red Code",
+      "Red Code INC"
+    ],
+    "Owner": "Ben Brown",
+    "Type": "Software Organization",
+    "Family": {
+      "Description": "A Group of Code Libraries, Apps, a Database, and an AI, Managed By Red Code INC.",
+      "Name": "The Red Code Family",
+      "Members": {
+        "Active": [
+          "Red Script",
+          "Red CSS",
+          "Red HTML",
+          "Red Icons",
+          "Red X",
+          "Red Y",
+          "Red Z",
+          "Red Python",
+          "Red Java",
+          "Red C",
+          "Red Plus",
+          "Red Sharp"
+        ],
+        "Depreciated": [
+          "Red Logos"
+        ],
+        "All": [
+          "Red Script",
+          "Red CSS",
+          "Red HTML",
+          "Red Logos",
+          "Red Icons",
+          "Red X",
+          "Red Y",
+          "Red Z",
+          "Red Python",
+          "Red Java",
+          "Red C",
+          "Red Plus",
+          "Red Sharp"
+        ]
+      }
+    },
+    "Description": "The Organization Responsible Creating, Managing, and Updating The Members of The Red Code Family",
+    "Brother": "Schoolsistance INC",
+    "Father": "5th Red"
+  },
+  "Script": {
+    "Name": "Red Script",
+    "Versions": "51",
+    "Latest": "1.4.1",
+    "Language": "JavaScript",
+    "Age": "Oldest",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "jQuery"
+  },
+  "CSS": {
+    "Name": "Red CSS",
+    "Versions": "26",
+    "Latest": "1.3.4",
+    "Language": "CSS",
+    "Age": "2nd",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "Bootstrap"
+  },
+  "HTML": {
+    "Name": "Red HTML",
+    "Versions": "2",
+    "Latest": "1.0.2",
+    "Language": "JavaScript",
+    "Age": "3rd",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Logos": {
+    "Name": "Red Logos",
+    "Versions": "11",
+    "Latest": "a.final",
+    "Language": "CSS",
+    "Age": "4th",
+    "Status": "Depreciated",
+    "Type": "Library",
+    "Inspiration": "Bootstrap Icons"
+  },
+  "Icons": {
+    "Name": "Red Icons",
+    "Versions": "34",
+    "Latest": "1.3.4",
+    "Language": "CSS",
+    "Age": "5th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "Bootstrap Icons"
+  },
+  "X": {
+    "Name": "Red X",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "HTML/CSS/JavaScript and React Native",
+    "Age": "6th",
+    "Status": "Alive",
+    "Type": "App",
+    "Inspiration": "none"
+  },
+  "Y": {
+    "Name": "Red Y",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "React Native",
+    "Age": "11th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Z": {
+    "Name": "Red Z",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "HTML/CSS/JavaScript and React Native",
+    "Age": "12th",
+    "Status": "Alive",
+    "Type": "App",
+    "Inspiration": "none"
+  },
+  "Python": {
+    "Name": "Red Python",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "Python",
+    "Age": "7th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Java": {
+    "Name": "Red Java",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "Java",
+    "Age": "8th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "C": {
+    "Name": "Red C",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "C",
+    "Age": "9th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Plus": {
+    "Name": "Red Plus",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "C++",
+    "Age": "10th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Sharp": {
+    "Name": "Red Sharp",
+    "Versions": "none",
+    "Latest": "none",
+    "Language": "C#",
+    "Age": "11th",
+    "Status": "Alive",
+    "Type": "Library",
+    "Inspiration": "none"
+  },
+  "Vault": {
+    "Name": "Red Vault",
+    "Description": "The Database for Red Code and The Red Code Family",
+    "Language": "HTML, CSS, JavaScript, and JSON",
+    "Type": "Database"
+  },
+  "Jarvis": {
+    "Name": "Red Jarvis",
+    "Description": "AI used to inform about the Red Code Family",
+    "Language": "HTML, CSS, JavaScript, JSON, Python and More.",
+    "Type": "AI"
+  }
+}
+--------------------------------------
+Math.py
+--------------------------------------
+
+import math
+
+
+PI = math.pi
+AV = 6.022*10**23
+TAU = 2*PI
+
+sqrt = lambda x: math.sqrt(x)
+
+def CA(radius):
+    return PI * radius**2
+def CF(radius):
+    return TAU * radius
+def PY(a,b):
+    return sqrt((a**2)+(b**2))
+
+
+class Circle:
+    def Area(radius):
+        return CA(radius)
+    def Circumfrence(radius):
+        return CF(radius)
+--------------------------------------
+Rand.py
+--------------------------------------
+
+import random
+
+def RD(x = None):
+    if x is not None:
+        return round(random.random()*x)
+    else:
+        return round(random.random())
+def RND(min,max):
+    return random.randint(min,max)
+    
+def RDB():
+    x = RND(0,1)
+    if x == 0:
+        return False
+    elif x == 1:
+        return True
+        
+def RDV(*args):
+    x = RD((len(args)-1))
+    return args[x]
+    
+class RAND:
+    def __init__(self):
+        self._in_method = False
+    def __call__(self,x):
+        if not self._in_method:
+            return RD(x)
+        else:
+            return
+    def Int(*x):
+        self._in_method = True
+        return RND(x)
+        self._in_method = False
+    def Bool(x = None):
+        self_in_method = True
+        return RDB()
+        self._in_method = False
+    def Var(*args):
+        self._in_method = True
+        return RDV(*args)
+        self._in_method = False
+
+Rand = RAND()
+--------------------------------------
+File.py
+--------------------------------------
+
+import urllib.request
+
+def File(file):
+    if "https://" in file:
+        return urllib.request.urlopen(file)
+    else:
+        return open(file)
