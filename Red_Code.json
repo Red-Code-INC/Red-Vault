@@ -42,23 +42,26 @@
           "Red Plus",
           "Red Sharp"
         ]
-      }
+      },
+      "codesList": "new Codes(12)"
     },
     "Description": "The Organization Responsible Creating, Managing, and Updating The Members of The Red Code Family",
     "Brother": "Schoolsistance INC"
   },
   "Script": {
     "Name": "Red Script",
+    "Description": "A Simple JavaScript Library inspired by jQuery",
     "Versions": "51",
     "Latest": "1.4.1",
     "Language": "JavaScript",
     "Age": "Oldest",
     "Status": "Alive",
     "Type": "Library",
-    "Inspiration": "jQuery"
+    "Inspiration": "jQuery",
   },
   "CSS": {
     "Name": "Red CSS",
+    "Description": "A Simple CSS library inspired by Bootstrap",
     "Versions": "26",
     "Latest": "1.3.4",
     "Language": "CSS",
@@ -69,6 +72,7 @@
   },
   "HTML": {
     "Name": "Red HTML",
+    "Description": "Custom HTML tags and attributes created using JavaScript",
     "Versions": "2",
     "Latest": "1.0.2",
     "Language": "JavaScript",
@@ -79,6 +83,7 @@
   },
   "Logos": {
     "Name": "Red Logos",
+    "Description": "A Library Designed to hold and add the Logos of the Red Code Family",
     "Versions": "11",
     "Latest": "a.final",
     "Language": "CSS",
@@ -89,6 +94,7 @@
   },
   "Icons": {
     "Name": "Red Icons",
+    "Description": "An Icon Library inspired by Bootstrap Icons and Font Awesome",
     "Versions": "34",
     "Latest": "1.3.4",
     "Language": "CSS",
@@ -112,7 +118,7 @@
     "Versions": "none",
     "Latest": "none",
     "Language": "React Native",
-    "Age": "11th",
+    "Age": "12th",
     "Status": "Alive",
     "Type": "Library",
     "Inspiration": "none"
@@ -122,7 +128,7 @@
     "Versions": "none",
     "Latest": "none",
     "Language": "HTML/CSS/JavaScript and React Native",
-    "Age": "12th",
+    "Age": "13th",
     "Status": "Alive",
     "Type": "App",
     "Inspiration": "none"
@@ -185,7 +191,7 @@
   },
   "Jarvis": {
     "Name": "Red Jarvis",
-    "Description": "AI used to inform about the Red Code Family",
+    "Description": "AI used to provide information and answer questions about the Red Code Family",
     "Language": "HTML, CSS, JavaScript, JSON, Python and More.",
     "Type": "AI"
   }
